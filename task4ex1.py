@@ -1,0 +1,16 @@
+n=[12,14,16,18,20]
+print("List created!")
+print(n)
+n.insert(3,17)
+print("List after adding an item to the list:")
+print(n)
+n.remove(14)
+print("List after deleting an item from the list:")
+print(n)
+print("The largest number in the list:")
+n1=max(n)
+print(n1)
+print("The smallest number in the list:")
+n2=min(n)
+print(n2)
+

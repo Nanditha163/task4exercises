@@ -1,0 +1,6 @@
+ntuple=(20,21,22,23,24,25)
+print("Tuple before reversing:")
+print(ntuple)
+ntuple=tuple(reversed(ntuple))
+print("Tuple after reversing:")
+print(ntuple)
